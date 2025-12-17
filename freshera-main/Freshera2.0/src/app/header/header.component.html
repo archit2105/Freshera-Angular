@@ -1,0 +1,55 @@
+<header [ngClass]="{'header-bg': showBackground}"  class="header">
+    <nav class="navbar ">
+      <a class="brand" href="#">
+        <img src="https://www.freshera.in/assets/img/logoFreshera.svg" alt="Logo" class="logo">
+      </a>
+
+      <input type="checkbox" id="nav" class="hidden">
+      <label for="nav" class="nav-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+       </label>
+      <div class="wrapper ">
+        <ul class="menu allign-center SMN_effect-44 expanded text-center">
+          <li class="menu-item"><a class="menu-item" routerLink="home">Home</a></li>
+          <li class="menu-item"><a class="menu-item" routerLink="aboutus">About Us</a></li>
+          <li class="menu-item"><a class="menu-item" routerLink="services">Services</a></li>
+          <li class="menu-item"><a class="menu-item" routerLink="contactus">Contact Us</a></li>
+        
+        </ul>
+      </div>
+      
+    
+    </nav>
+
+    <div *ngIf="showBackground" class="section-bgc intro">
+
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="intro-content" style="--margin-left: 4rem;">
+              <div class="section-heading shm-none">
+              
+                <h1>Empower your<br> business with IT<br> most the Solutions</h1>
+                <p class="section-desc" style="font-size:18px;color:black;">IT Solution is a broad category that encompasses various technological solutions aimed at solving problems or improving efficiency in the field of information technology the best it design in the field.</p>
+              
+                  
+                <p class="section-desc" style="font-size:18px;height: 6px;color:black;"><i class="material-icons material-icons-outlined md-48" style="padding-left: 29px;margin-top: 0px;font-size: 13px;">send</i>
+                Cloud Connect IT Services design.</p>
+                <p class="section-desc" style="font-size:18px;height: 6px;color:black;"><i class="material-icons material-icons-outlined md-48" style="padding-left: 29px;margin-top: 0px;font-size: 13px;">send</i>
+                Cyber Shield Technologies.</p>
+                <p class="section-desc" style="font-size:18px;height: 6px;color:black;"><i class="material-icons material-icons-outlined md-48" style="padding-left: 29px;margin-top: 0px;font-size: 13px;">send</i>
+                Digital Transform Solutions.</p>
+                <p class="section-desc" style="font-size:18px;height: 6px;color:black;"><i class="material-icons material-icons-outlined md-48" style="padding-left: 29px;margin-top: 0px;font-size: 13px;">send</i>
+                IT Consulting and Support.</p>
+
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+	
